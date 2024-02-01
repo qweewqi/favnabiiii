@@ -229,14 +229,14 @@ function lo(){
     // vvop.id = "vv";
     // });
 
-    fetch("music/dream.mp3")
-    .then(response => response.blob())
-    .then(blob => {
-    aaop = document.createElement('audio');
-    aaop.src = URL.createObjectURL(blob);
-    aaop.controls = false;
-    aaop.loop = true;
-    });
+    //fetch("music/dream.mp3")
+    //.then(response => response.blob())
+    //.then(blob => {
+    //aaop = document.createElement('audio');
+    //aaop.src = URL.createObjectURL(blob);
+    //aaop.controls = false;
+    //aaop.loop = true;
+    //});
 }
 
 function lol(){
