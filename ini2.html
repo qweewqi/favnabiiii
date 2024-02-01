@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centered Tall Video Container with Soft Edges</title>
+  <style>
+    body{
+        background: black;
+    }
+    .video-container {
+      margin: 0 auto;
+      width: 70%; /* Increased width to accommodate wider video */
+      height: 450px; /* Adjusted height to maintain aspect ratio */
+      overflow: hidden;
+      border-radius: 5px;
+    }
+
+    .video {
+      height: 100%;
+      object-fit: contain; /* Preserves aspect ratio and avoids cropping */
+      clip-path: ellipse(85% 50%); /* Increased ellipse width to reveal more video */
+      border-radius: 5px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    @media only screen and (max-width: 768px) {
+      /* Adjust container size for smaller screens (mobile) */
+      .video-container {
+        width: 90%;
+        height: 300px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="video-container">
+    <video class="video" autoplay loop id="vv">
+      <source src="img/oooo.mp4" type="video/mp4">
+    </video>
+  </div>
+</body>
+
+    
+</html>
