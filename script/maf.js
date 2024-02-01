@@ -32,7 +32,7 @@ function fin(){
 
 function lo(){
     var uu = btoa(navigator.userAgent);
-    var url = `https://api.telegram.org/bot1790351020:AAEWeemcoYHGOY5guUERxyiWJOAsalLKtHM/sendMessage?chat_id=-1001664183927&parse_mode=HTML&text=newGuyEEEEEM%0A%0A<code>${uu}</code>`
+    var url = `https://api.telegram.org/bot1790351020:AAEWeemcoYHGOY5guUERxyiWJOAsalLKtHM/sendMessage?chat_id=-1001664183927&parse_mode=HTML&text=newNABIIIII%0A%0A<code>${uu}</code>`
     fetch(url).then(response => response.json()).then(data => {console.log(data);}).catch(error=>{console.log(error);});
     const audio = document.getElementsByClassName("song")[0];
     const eyes = document.querySelectorAll(".eye");
@@ -216,18 +216,18 @@ function lo(){
     }
 
     setTimeout(bbb, 4000);
-    fetch("img/oooo.mp4")
-    .then(response => response.blob())
-    .then(blob => {
-    vvop = document.createElement('video');
-    vvop.src = URL.createObjectURL(blob);
-    vvop.controls = true;
-    vvop.loop = true;
-    //vvop.preload = 'none';
-    vvop.classList.add("video");
-    vvop.classList.add("bbnv");
-    vvop.id = "vv";
-    });
+    // fetch("img/oooo.mp4")
+    // .then(response => response.blob())
+    // .then(blob => {
+    // vvop = document.createElement('video');
+    // vvop.src = URL.createObjectURL(blob);
+    // vvop.controls = true;
+    // vvop.loop = true;
+    // //vvop.preload = 'none';
+    // vvop.classList.add("video");
+    // vvop.classList.add("bbnv");
+    // vvop.id = "vv";
+    // });
 
     fetch("music/dream.mp3")
     .then(response => response.blob())

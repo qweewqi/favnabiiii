@@ -1,6 +1,18 @@
 function sh(){document.getElementById("fifi").style.display = "block";}
-function shhh(){document.getElementById("vv").play();}
-function hiii(){document.getElementById("vv").pause();}
+function shhh(){
+
+  let iframe = document.createElement('iframe');
+  iframe.src = 'https://www.youtube.com/embed/J1t-g2L-gGQ?autoplay=1&controls=0&mute=1';
+  iframe.width = '324';
+  iframe.height = '720';
+  iframe.frameborder = '0';       
+  iframe.allow="accelerometer; encrypted-media; gyroscope; picture-in-picture";
+  iframe.allowfullscreen="0";
+  iframe.style = "background-color: #000000; border-color: black;";
+  iframe.id = "bbbf";
+
+  document.getElementById("VVOC").appendChild(iframe);}
+function hiii(){document.getElementById("VVOC").removeChild(bbbf);}
 function hi(){document.getElementById("fifi").style.display = "none";}
 
 // Animation Timeline

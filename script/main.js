@@ -40,7 +40,7 @@ const d4 = document.getElementById("lmp");
     document.head.appendChild(s3);    
     document.title = 'Happy Birthday!!! :)';
     document.body.innerHTML = htm;
-    document.getElementById("VVOC").appendChild(vvop)
+    //document.getElementById("VVOC").appendChild(vvop)
 
 }
 

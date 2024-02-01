@@ -53,6 +53,8 @@ body {
   transform: scale(.8);
   box-shadow: 0 0px 20px 15px rgb(255 255 255 / 25%);
   border-radius: 32px;
+  overflow: hidden;
+  background: black;
 }
 
 .bbnv {
