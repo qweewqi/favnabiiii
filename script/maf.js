@@ -223,7 +223,7 @@ function lo(){
     .then(blob => {
     vvop = document.createElement('video');
     vvop.src = URL.createObjectURL(blob);
-    vvop.controls = false;
+    vvop.controls = true;
     vvop.loop = true;
     //vvop.preload = 'none';
     vvop.classList.add("video");
