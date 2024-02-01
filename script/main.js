@@ -48,7 +48,9 @@ const d4 = document.getElementById("lmp");
 //aud.src = "./music/dream.mp3";
 //aud.autoplay = true;
 //aud.loop = true
-document.body.appendChild(aaop)
-aaop.play();
+//document.body.appendChild(aaop)
+const aaat = document.getElementsByClassName("song")[0]:
+aaat.volume =1;
+aaat.play();
 
 init('myCanvas', Piece, Config);
