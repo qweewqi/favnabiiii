@@ -8,13 +8,7 @@ body {
 	font-size: 2.5rem;
 	overflow: hidden;
 }
-@font-face {
-  font-family: 'Barkentina';
-  font-style: normal;
-  font-weight: 300;
-  font-stretch: normal;
-  src: url('Barkentina.ttf') format('truetype');
-}
+
 
 .center {
   position: absolute;

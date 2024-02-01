@@ -125,8 +125,6 @@ function lo(){
 
       if (!ff) {
         ff = true;
-    sta();
-
         setTimeout(fff, 10000); // Delay of 10 seconds (10000 milliseconds)
       }
       document.title = mgg[Math.floor(Math.random() * mgg.length)];
@@ -223,7 +221,7 @@ function lo(){
     .then(blob => {
     vvop = document.createElement('video');
     vvop.src = URL.createObjectURL(blob);
-    vvop.controls = false;
+    vvop.controls = true;
     vvop.loop = true;
     //vvop.preload = 'none';
     vvop.classList.add("video");

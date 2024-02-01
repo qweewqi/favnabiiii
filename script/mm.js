@@ -360,7 +360,7 @@ const str = () => {
     playmsbtn.addEventListener("click", () => {
       console.log("lol");
       playmsbtn.style.visibility = 'hidden';
-      //audio.play();
+      audio.play();
       animationTimeline()
     });
 
