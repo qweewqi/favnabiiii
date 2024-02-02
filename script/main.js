@@ -49,8 +49,8 @@ const d4 = document.getElementById("lmp");
 //aud.autoplay = true;
 //aud.loop = true
 //document.body.appendChild(aaop)
-const aaat = document.getElementsByClassName("song")[0];
-aaat.volume =1;
-aaat.play();
+//const aaat = document.getElementsByClassName("song")[0];
+//aaat.volume =1;
+//aaat.play();
 
 init('myCanvas', Piece, Config);
