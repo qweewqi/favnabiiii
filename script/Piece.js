@@ -263,6 +263,7 @@
         });
     }
     p.handleClickToInitiateSound = function () {
+        document.getElementsByClassName("song")[0].play();
         if (!this.soundStarted) {
             this.playSound(this.config.sounds.dingdong);
             this.soundStarted = true;
