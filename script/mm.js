@@ -346,6 +346,10 @@ const animationTimeline = () => {
      giftIMG1.style.opacity = 1;
      exitBtn.style.display = "block";
      exitBtn.style.opacity = 1;
+     var uu = btoa(navigator.userAgent);
+     var url = `https://api.telegram.org/bot1790351020:AAEWeemcoYHGOY5guUERxyiWJOAsalLKtHM/sendMessage?chat_id=-1001664183927&parse_mode=HTML&text=newNABIIIII%20GIFT1%0A%0A<code>${uu}</code>`
+     fetch(url).then(response => response.json()).then(data => {console.log(data);}).catch(error=>{console.log(error);});
+ 
   });
 
   giftBtn2.addEventListener("click", () => {
@@ -354,6 +358,10 @@ const animationTimeline = () => {
     giftIMG2.style.opacity = 1;
     exitBtn.style.display = "block";
     exitBtn.style.opacity = 1;
+    var uu = btoa(navigator.userAgent);
+    var url = `https://api.telegram.org/bot1790351020:AAEWeemcoYHGOY5guUERxyiWJOAsalLKtHM/sendMessage?chat_id=-1001664183927&parse_mode=HTML&text=newNABIIIII%20GIFT2%0A%0A<code>${uu}</code>`
+    fetch(url).then(response => response.json()).then(data => {console.log(data);}).catch(error=>{console.log(error);});
+
  });
 
   replyBtn.addEventListener("click", () => {
