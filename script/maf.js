@@ -14,9 +14,15 @@ let aaop = null;
 
 function sta (){
     document.body.style.backgroundColor = "black";
+    document.getElementById('kitty').remove();
+    document.getElementsByClassName("song")[0].src = "music/dream.mp3";
+    document.getElementsByClassName("song")[0].play();
+    document.getElementById('ennv').style = "display: block;";
 
-    document.body.innerHTML = "";
-    document.body.innerHTML = m1;
+    //document.body.innerHTML = "";
+    //document.body.innerHTML = m1;
+
+
     var s7 = document.createElement("script");
     s7.src = "./script/main.js";
     document.querySelector('meta[name="viewport"]').setAttribute('content','width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no')
